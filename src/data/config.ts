@@ -29,7 +29,7 @@ const config = {
 
   // for github stars button
   githubUsername: "hlimss",
-  githubRepo: "3d-portfolio",
+  githubRepo: "Portfolio",
 
   ogImg: "",
   social: {
@@ -37,7 +37,7 @@ const config = {
     linkedin: "https://www.linkedin.com/in/halim-benosmane-867687222/",
     instagram: "",
     facebook: "",
-    github: "https://github.com/hlimss",
+    github: "https://github.com/hlimss/Portfolio",
   },
 };
 export { config };

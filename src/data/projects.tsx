@@ -510,8 +510,8 @@ const projects: Project[] = [
     title: "Portfolio 3D Interactif",
     src: "/assets/projects-screenshots/portfolio/portfolio.png",
     screenshots: ["portfolio.png", "projects.png"],
-    live: "#",
-    github: "https://github.com/hlimss/3d-portfolio",
+    live: "https://cv-phi-jet-32.vercel.app/",
+    github: "https://github.com/hlimss/Portfolio",
     skills: {
       frontend: [
         PROJECT_SKILLS.ts,
