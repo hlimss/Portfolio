@@ -3,6 +3,13 @@ const nextConfig = {
   reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true
+  },
+  typescript: {
+    ignoreBuildErrors: false
+  },
+  images: {
+    domains: [],
+    unoptimized: false
   }
 };
 
