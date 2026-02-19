@@ -32,7 +32,7 @@ const ProjectsSection = () => {
   );
 };
 const Modall = ({ project }: { project: Project }) => {
-  const showLiveLink = project.live && project.live !== "#" && project.live.trim() !== "";
+  const showLiveLink: boolean = !!(project.live && project.live !== "#" && project.live.trim() !== "");
   
   return (
     <div className="flex items-center justify-center">

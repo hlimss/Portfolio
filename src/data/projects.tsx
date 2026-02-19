@@ -26,13 +26,11 @@ import {
   SiThreedotjs,
   SiTypescript,
   SiVuedotjs,
-  SiJava,
   SiSpring,
   SiDotnet,
   SiAngular,
   SiFlask,
   SiMysql,
-  SiMicrosoftsqlserver,
 } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 const BASE_PATH = "/assets/projects-screenshots";
@@ -237,7 +235,7 @@ const PROJECT_SKILLS = {
     title: "Java",
     bg: "black",
     fg: "white",
-    icon: <SiJava />,
+    icon: <span className="text-white font-bold">Java</span>,
   },
   spring: {
     title: "Spring Boot",
@@ -273,7 +271,7 @@ const PROJECT_SKILLS = {
     title: "SQL Server",
     bg: "black",
     fg: "white",
-    icon: <SiMicrosoftsqlserver />,
+    icon: <span className="text-white font-bold">SQL</span>,
   },
 };
 export type Project = {
